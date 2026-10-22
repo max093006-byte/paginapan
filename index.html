@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Maison Dorée — pastelería artesanal, postres de autor y experiencias dulces.">
+  <title>Maison Dorée — Pastelería de autor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="announcement">PASTELERÍA DE AUTOR · HECHA CON TIEMPO Y DETALLE</div>
+
+  <header class="site-header">
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="main-nav" aria-label="Navegación principal">
+      <a href="#coleccion">La colección</a>
+      <a href="#historia">Nuestra historia</a>
+      <a href="#visitanos">Visítanos</a>
+    </nav>
+    <a class="brand" href="#" aria-label="Maison Dorée, inicio">MAISON <span>DORÉE</span></a>
+    <a class="header-cta" href="#coleccion">Descubrir <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-image" role="img" aria-label="Pastelería artesanal elegantemente presentada"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow light">EL ARTE DE LO EXQUISITO</p>
+        <h1>Pequeños placeres.<br><em>Grandes recuerdos.</em></h1>
+        <p class="hero-copy">Pastelería de autor creada para convertir cada momento en algo especial.</p>
+        <a class="button button-light" href="#coleccion">Explorar la colección <span>↘</span></a>
+      </div>
+      <div class="hero-note"><span>01 — 03</span><span>Una experiencia para saborear despacio</span></div>
+    </section>
+
+    <section class="intro section-wrap" id="historia">
+      <p class="eyebrow">EL SABOR DE LO ARTESANAL</p>
+      <h2>La belleza está en<br><em>cada detalle.</em></h2>
+      <p class="intro-text">Creemos que la pastelería es mucho más que un postre. Es textura, equilibrio, memoria y emoción. Cada creación nace de ingredientes seleccionados y del deseo de sorprender.</p>
+      <a class="text-link" href="#visitanos">Conoce nuestra filosofía <span>↗</span></a>
+    </section>
+
+    <section class="collection" id="coleccion">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">CREACIONES DE LA CASA</p>
+          <h2>Nuestra <em>colección</em></h2>
+        </div>
+        <p>Una selección de dulces piezas elaboradas con paciencia, precisión y pasión.</p>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card">
+          <div class="product-image product-one"><span class="product-number">01</span></div>
+          <div class="product-info"><div><h3>Fresa & Vainilla</h3><p>Fresa fresca, crema ligera y vainilla.</p></div><span class="product-type">FRESCO</span></div>
+        </article>
+        <article class="product-card product-featured">
+          <div class="product-image product-two"><span class="product-number">02</span></div>
+          <div class="product-info"><div><h3>Chocolat Intense</h3><p>Chocolate oscuro y corazón cremoso.</p></div><span class="product-type">INTENSO</span></div>
+        </article>
+        <article class="product-card">
+          <div class="product-image product-three"><span class="product-number">03</span></div>
+          <div class="product-info"><div><h3>Jardín de Limón</h3><p>Notas cítricas, almendra y merengue.</p></div><span class="product-type">CÍTRICO</span></div>
+        </article>
+      </div>
+      <div class="collection-footer"><span>UNA SELECCIÓN QUE CAMBIA CON LAS ESTACIONES</span><a class="text-link" href="#visitanos">Ver dónde encontrarnos <span>↗</span></a></div>
+    </section>
+
+    <section class="quote-section">
+      <div class="quote-image" role="img" aria-label="Detalle de un postre artesanal"></div>
+      <div class="quote-copy">
+        <p class="eyebrow">NUESTRA FILOSOFÍA</p>
+        <h2>Lo extraordinario<br>vive en lo <em>simple.</em></h2>
+        <p>Ingredientes honestos. Técnicas cuidadas. Una mirada creativa. Así damos vida a sabores que se quedan contigo mucho después del último bocado.</p>
+        <span class="signature">Maison Dorée</span>
+      </div>
+    </section>
+
+    <section class="visit section-wrap" id="visitanos">
+      <p class="eyebrow">TE ESPERAMOS</p>
+      <h2>Un momento dulce<br><em>te está esperando.</em></h2>
+      <p>Ven a descubrir nuestras creaciones y disfruta de una pausa hecha para ti.</p>
+      <a class="button button-dark" href="mailto:hola@maisondoree.example?subject=Consulta%20Maison%20Dor%C3%A9e">Escríbenos <span>↗</span></a>
+      <div class="visit-details">
+        <div><span class="detail-label">HORARIO DE EJEMPLO</span><p>Martes – Domingo<br>10:00 – 19:00</p></div>
+        <div><span class="detail-label">UBICACIÓN</span><p>Tu ciudad<br>Consulta la dirección antes de visitar</p></div>
+        <div><span class="detail-label">CONTACTO</span><p>hola@maisondoree.example<br>Datos de muestra para personalizar</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#">MAISON <span>DORÉE</span></a>
+    <p>El arte de disfrutar despacio.</p>
+    <span>© <span id="year"></span> MAISON DORÉE · PROYECTO DEMOSTRATIVO</span>
+    <a href="#top" class="back-top" aria-label="Volver arriba">↑</a>
+  </footer>
+</body>
+</html>
